@@ -56,8 +56,21 @@ func main() {
 			ok = true
 		} else {
 			if len(playersList) > 0 {
-				fmt.Println("Partie lancée !")
+				fmt.Println("Partie lancée !\n")
+				random := rand.Intn(100 - 0) + 0
 
+				fmt.Print(random"\n")
+
+				for i := 1; i < 5; i++ {
+					fmt.Println("Tentative %v : ", i)
+					fmt.Println("Joueur 1 : ")
+					var tryp1 int
+					fmt.Scanln(&tryp1)
+					fmt.Println("Joueur 2 : ")
+					var tryp1 int
+					fmt.Scanln(&tryp2)
+					if 
+				}	
 			} else {
 				fmt.Println("Il faut un minimum de un joueur pour commencer la partie.")
 			}
